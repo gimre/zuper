@@ -1,0 +1,13 @@
+{
+  "name": "zuper",
+  "description": "zuper static site generator",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "dependencies": {
+    "electrolyte": "0.0.6",
+    "koa": "^0.18.1",
+    "koa-route": "^2.4.0"
+  }
+}
