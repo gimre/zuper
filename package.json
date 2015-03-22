@@ -3,11 +3,20 @@
   "description": "zuper static site generator",
   "version": "0.0.1",
   "scripts": {
-    "start": "node --harmony index.js"
+    "start": "node node_modules/gulp/bin/gulp.js && node --harmony index.js"
   },
   "dependencies": {
     "electrolyte": "0.0.6",
     "koa": "^0.18.1",
-    "koa-route": "^2.4.0"
+    "koa-body": "^1.1.0",
+    "koa-jwt": "^0.1.7",
+    "koa-route": "^2.4.0",
+    "nedb": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-if": "^1.2.5",
+    "gulp-inline": "0.0.9",
+    "gulp-uglify": "^1.1.0"
   }
 }
